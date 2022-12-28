@@ -41,7 +41,7 @@
         {
             "id": "the_high_priestess",
             "type": "Mayores",
-            "title": "La papisa",
+            "title": "La suma sacerdotisa",
             "description": "Una mujer joven y atractiva sentada detrás de un velo",
             "meaning_up": [
                 "Sabiduría",
@@ -452,7 +452,7 @@
             "title": "El dos de bastos",
             "description": "Una vara con dos puntas y un globo en el fondo",
             "meaning_up": [
-                "Desición",
+                "Decisión",
                 "Elección",
                 "Acción",
                 "Planeación",

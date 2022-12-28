@@ -2,7 +2,17 @@
 
 # vgonisanz's Tarot fortune
 
+**DISCLAIMER**: Use for fantasy purposes only.
+Translations, interpretations, predictions and other elements used may not correspond to reality.
+No warranty of any kind.
+Used for programming tinkering
+Do not follow to the letter.
+Do not rely on predictions.
+Danger of death.
+
 </div>
+
+Small python project to do the mythological tarot card divination, but by terminal.
 
 ## Usage
 
@@ -27,7 +37,7 @@ This will create a virtual environment with all the needed dependencies
 You can activate this environment with:
 
 ```bash
-$ source ./.tox/tarot_fortune/bin/activate
+source ./.tox/tarot_fortune/bin/activate
 ```
 
 Then, you can run `make help`.
