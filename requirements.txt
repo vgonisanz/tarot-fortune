@@ -1,0 +1,16 @@
+click==8.1.3
+    # via typer
+importlib-metadata==4.11.4
+    # via click
+pillow==9.1.1
+    # via -r requirements.in
+structlog==21.5.0
+    # via -r requirements.in
+typer==0.4.1
+    # via -r requirements.in
+typing-extensions==4.2.0
+    # via
+    #   importlib-metadata
+    #   structlog
+zipp==3.8.0
+    # via importlib-metadata
