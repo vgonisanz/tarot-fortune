@@ -1,0 +1,1554 @@
+{
+    "cards": [
+        {
+            "id": "the_fool",
+            "type": "Mayores",
+            "title": "El loco",
+            "description": "Un hombre joven y atractivo que camina en la cima de un acantilado",
+            "meaning_up": [
+                "Libertad",
+                "Aventura",
+                "Locura",
+                "Creatividad",
+                "Despreocupación"
+            ],
+            "meaning_down": [
+                "Desorganización",
+                "Irresponsabilidad",
+                "Peligro",
+                "Descontrol"
+            ]
+        },
+        {
+            "id": "the_magician",
+            "type": "Mayores",
+            "title": "El mago",
+            "description": "Un hombre joven y atractivo que sostiene una varita mágica",
+            "meaning_up": [
+                "Creación",
+                "Transformación",
+                "Habilidad",
+                "Ingenio",
+                "Concentración"
+            ],
+            "meaning_down": [
+                "Timidez",
+                "Engaño",
+                "Engaño",
+                "Falta de confianza"
+            ]
+        },
+        {
+            "id": "the_high_priestess",
+            "type": "Mayores",
+            "title": "La papisa",
+            "description": "Una mujer joven y atractiva sentada detrás de un velo",
+            "meaning_up": [
+                "Sabiduría",
+                "Intuición",
+                "Secretos",
+                "Misterio",
+                "Conexión con el inconsciente"
+            ],
+            "meaning_down": [
+                "Ignorancia",
+                "Falta de conocimiento",
+                "Falta de conexión con el inconsciente"
+            ]
+        },
+        {
+            "id": "the_empress",
+            "type": "Mayores",
+            "title": "La emperatriz",
+            "description": "Una mujer joven y atractiva sentada en un trono",
+            "meaning_up": [
+                "Maternidad",
+                "Abundancia",
+                "Fertilidad",
+                "Cambio",
+                "Crecimiento"
+            ],
+            "meaning_down": [
+                "Fracaso",
+                "Estancamiento",
+                "Falta de cambio",
+                "Falta de crecimiento"
+            ]
+        },
+        {
+            "id": "the_emperor",
+            "type": "Mayores",
+            "title": "El emperador",
+            "description": "Un hombre joven y atractivo sentado en un trono",
+            "meaning_up": [
+                "Autoridad",
+                "Liderazgo",
+                "Poder",
+                "Dominio",
+                "Protección"
+            ],
+            "meaning_down": [
+                "Falta de autoridad",
+                "Falta de liderazgo",
+                "Debilidad",
+                "Inseguridad"
+            ]
+        },
+        {
+            "id": "the_hierophant",
+            "type": "Mayores",
+            "title": "El jerarca",
+            "description": "Un hombre anciano sentado en un trono y rodeado de simbolos religiosos",
+            "meaning_up": [
+                "Instituciones",
+                "Tradición",
+                "Enseñanza",
+                "Guía espiritual",
+                "Conexión con lo divino"
+            ],
+            "meaning_down": [
+                "Falta de guía",
+                "Falta de conexión con lo divino",
+                "Falta de instituciones"
+            ]
+        },
+        {
+            "id": "the_lovers",
+            "type": "Mayores",
+            "title": "Los amantes",
+            "description": "Un hombre y una mujer de pie juntos",
+            "meaning_up": [
+                "Rodeados de simbolos de amor y un ángel en el fondo"
+            ],
+            "meaning_down": [
+                "Amor",
+                "Conexión",
+                "Pasión",
+                "Compromiso",
+                "Elección"
+            ]
+        },
+        {
+            "id": "the_chariot",
+            "type": "Mayores",
+            "title": "El carro",
+            "description": "Un hombre sentado en un carro tirado por dos caballos",
+            "meaning_up": [
+                "Movilidad",
+                "Triunfo",
+                "Control",
+                "Determinación",
+                "Victoria"
+            ],
+            "meaning_down": [
+                "Falta de control",
+                "Derrota",
+                "Falta de determinación",
+                "Falta de victoria"
+            ]
+        },
+        {
+            "id": "justice",
+            "type": "Mayores",
+            "title": "La justicia",
+            "description": "Una mujer sentada en un trono con una espada y una balanza",
+            "meaning_up": [
+                "Justicia",
+                "Equilibrio",
+                "Ley",
+                "Verdad",
+                "Consecuencia"
+            ],
+            "meaning_down": [
+                "Injusticia",
+                "Desequilibrio",
+                "Falta de ley",
+                "Falta de verdad"
+            ]
+        },
+        {
+            "id": "the_hermit",
+            "type": "Mayores",
+            "title": "El ermitaño",
+            "description": "Un hombre anciano sosteniendo una linterna y caminando solo",
+            "meaning_up": [
+                "Introspección",
+                "Reflexión",
+                "Soledad",
+                "Sabiduría",
+                "Espiritualidad"
+            ],
+            "meaning_down": [
+                "Falta de introspección",
+                "Falta de reflexión",
+                "Aislamiento",
+                "Falta de sabiduría",
+                "Falta de espiritualidad"
+            ]
+        },
+        {
+            "id": "the_wheel_of_fortune",
+            "type": "Mayores",
+            "title": "La rueda de la fortuna",
+            "description": "Una rueda girando con diferentes símbolos",
+            "meaning_up": [
+                "Cambio",
+                "Suerte",
+                "Ciclo",
+                "Destino",
+                "Flujo de vida"
+            ],
+            "meaning_down": [
+                "Estancamiento",
+                "Falta de cambio",
+                "Falta de suerte",
+                "Falta de destino",
+                "Falta de flujo de vida"
+            ]
+        },
+        {
+            "id": "strength",
+            "type": "Mayores",
+            "title": "La fuerza",
+            "description": "Una mujer sosteniendo la mandíbula cerrada de un león",
+            "meaning_up": [
+                "Fuerza",
+                "Valentía",
+                "Control emocional",
+                "Determinación",
+                "Dominio de uno mismo"
+            ],
+            "meaning_down": [
+                "Debilidad",
+                "Falta de valentía",
+                "Falta de control emocional",
+                "Falta de determinación",
+                "Falta de dominio de uno mismo"
+            ]
+        },
+        {
+            "id": "the_hanged_man",
+            "type": "Mayores",
+            "title": "El colgado",
+            "description": "Un hombre colgado de una rama con los pies en alto",
+            "meaning_up": [
+                "Aceptación",
+                "Sacrificio",
+                "Perspectiva",
+                "Renuncia",
+                "Apertura a nuevas oportunidades"
+            ],
+            "meaning_down": [
+                "Resistencia",
+                "Falta de aceptación",
+                "Falta de sacrificio",
+                "Falta de perspectiva",
+                "Cierre a nuevas oportunidades"
+            ]
+        },
+        {
+            "id": "death",
+            "type": "Mayores",
+            "title": "La muerte",
+            "description": "Una figura con una capucha y una espada caminando sobre un campo de cadáveres",
+            "meaning_up": [
+                "Cambio",
+                "Fin",
+                "Transformación",
+                "Renovación",
+                "Nacimiento de algo nuevo"
+            ],
+            "meaning_down": [
+                "Resistencia al cambio",
+                "Falta de fin",
+                "Falta de transformación",
+                "Falta de renovación",
+                "Falta de nacimiento de algo nuevo"
+            ]
+        },
+        {
+            "id": "temperance",
+            "type": "Mayores",
+            "title": "La templanza",
+            "description": "Una mujer sosteniendo dos copas y caminando sobre el agua",
+            "meaning_up": [
+                "Equilibrio",
+                "Moderación",
+                "Armonía",
+                "Sincronización",
+                "Paciencia"
+            ],
+            "meaning_down": [
+                "Desequilibrio",
+                "Exceso",
+                "Falta de armonía",
+                "Falta de sincronización",
+                "Impaciencia"
+            ]
+        },
+        {
+            "id": "the_devil",
+            "type": "Mayores",
+            "title": "El diablo",
+            "description": "Un diablo con dos figuras atadas a sus pies",
+            "meaning_up": [
+                "Esclavitud",
+                "Tentación",
+                "Adicción",
+                "Materialismo",
+                "Egoísmo"
+            ],
+            "meaning_down": [
+                "Libertad",
+                "Resistencia a la tentación",
+                "Renuncia a la adicción",
+                "Espiritualidad",
+                "Altruismo"
+            ]
+        },
+        {
+            "id": "the_tower",
+            "type": "Mayores",
+            "title": "La torre",
+            "description": "Una torre en llamas con personas cayendo de ella",
+            "meaning_up": [
+                "Cambio radical",
+                "Caos",
+                "Destrucción",
+                "Revelación de la verdad",
+                "Liberación"
+            ],
+            "meaning_down": [
+                "Resistencia al cambio",
+                "Estabilidad",
+                "Ocultamiento de la verdad",
+                "Encarcelamiento",
+                "Opresión"
+            ]
+        },
+        {
+            "id": "the_star",
+            "type": "Mayores",
+            "title": "La estrella",
+            "description": "Una mujer desnuda sosteniendo una estrella y un cántaro de agua",
+            "meaning_up": [
+                "Esperanza",
+                "Inspiración",
+                "Iluminación",
+                "Creatividad",
+                "Optimismo"
+            ],
+            "meaning_down": [
+                "Desesperación",
+                "Falta de inspiración",
+                "Oscuridad",
+                "Falta de creatividad",
+                "Pesimismo"
+            ]
+        },
+        {
+            "id": "the_moon",
+            "type": "Mayores",
+            "title": "La luna",
+            "description": "La luna en un cielo oscuro con dos perros ladrando a ella",
+            "meaning_up": [
+                "Miedo",
+                "Incertidumbre",
+                "Ilusión",
+                "Subconsciente",
+                "Instinto"
+            ],
+            "meaning_down": [
+                "Confianza",
+                "Certeza",
+                "Realidad",
+                "Conciencia",
+                "Razón"
+            ]
+        },
+        {
+            "id": "the_sun",
+            "type": "Mayores",
+            "title": "El sol",
+            "description": "El sol en un cielo despejado con dos niños jugando a su lado",
+            "meaning_up": [
+                "Alegría",
+                "Éxito",
+                "Felicidad",
+                "Realización",
+                "Iluminación"
+            ],
+            "meaning_down": [
+                "Tristeza",
+                "Fracaso",
+                "Infelicidad",
+                "Falta de realización",
+                "Oscuridad"
+            ]
+        },
+        {
+            "id": "judgment",
+            "type": "Mayores",
+            "title": "El juicio",
+            "description": "Un ángel tocando una trompeta mientras levanta a un hombre y a una mujer de sus tumbas",
+            "meaning_up": [
+                "Juicio final",
+                "Evaluación",
+                "Rendición de cuentas",
+                "Responsabilidad",
+                "Resurrección"
+            ],
+            "meaning_down": [
+                "Falta de juicio final",
+                "Falta de evaluación",
+                "Falta de rendición de cuentas",
+                "Falta de responsabilidad",
+                "Muerte"
+            ]
+        },
+        {
+            "id": "the_world",
+            "type": "Mayores",
+            "title": "El mundo",
+            "description": "Una mujer rodeada de símbolos de todas las religiones y culturas",
+            "meaning_up": [
+                "Completitud",
+                "Integración",
+                "Realización",
+                "Éxito",
+                "Conexión con el universo"
+            ],
+            "meaning_down": [
+                "Incompletitud",
+                "Falta de integración",
+                "Falta de realización",
+                "Fracaso",
+                "Desconexión con el universo"
+            ]
+        },
+        {
+            "id": "the_ace_of_wands",
+            "type": "Menores",
+            "title": "El as de bastos",
+            "description": "Un trébol de cuatro hojas en una vara",
+            "meaning_up": [
+                "Nuevos comienzos",
+                "Creatividad",
+                "Inspiración",
+                "Poder",
+                "Oportunidad"
+            ],
+            "meaning_down": [
+                "Estancamiento",
+                "Falta de creatividad",
+                "Falta de inspiración",
+                "Debilidad",
+                "Falta de oportunidad"
+            ]
+        },
+        {
+            "id": "the_two_of_wands",
+            "type": "Menores",
+            "title": "El dos de bastos",
+            "description": "Una vara con dos puntas y un globo en el fondo",
+            "meaning_up": [
+                "Desición",
+                "Elección",
+                "Acción",
+                "Planeación",
+                "Liderazgo"
+            ],
+            "meaning_down": [
+                "Duda",
+                "Indecisión",
+                "Falta de acción",
+                "Falta de planeación",
+                "Falta de liderazgo"
+            ]
+        },
+        {
+            "id": "the_three_of_wands",
+            "type": "Menores",
+            "title": "El tres de bastos",
+            "description": "Tres bastos con una llave y un barco en el fondo",
+            "meaning_up": [
+                "Expansión",
+                "Viajes",
+                "Negocios",
+                "Cooperación",
+                "Colaboración"
+            ],
+            "meaning_down": [
+                "Estrés",
+                "Falta de expansión",
+                "Falta de viajes",
+                "Problemas en los negocios",
+                "Falta de cooperación",
+                "Falta de colaboración"
+            ]
+        },
+        {
+            "id": "the_four_of_wands",
+            "type": "Menores",
+            "title": "El cuatro de bastos",
+            "description": "Cuatro bastos con un ramo de flores en el medio",
+            "meaning_up": [
+                "Comodidad",
+                "Estabilidad",
+                "Hogar",
+                "Celebración",
+                "Armonía"
+            ],
+            "meaning_down": [
+                "Incomodidad",
+                "Inestabilidad",
+                "Falta de hogar",
+                "Falta de celebración",
+                "Falta de armonía"
+            ]
+        },
+        {
+            "id": "the_five_of_wands",
+            "type": "Menores",
+            "title": "El cinco de bastos",
+            "description": "Cinco bastos cruzadas con figuras luchando",
+            "meaning_up": [
+                "Desafío",
+                "Conflicto",
+                "Lucha",
+                "Competición",
+                "Oposición"
+            ],
+            "meaning_down": [
+                "Paz",
+                "Armonía",
+                "Falta de conflicto",
+                "Falta de lucha",
+                "Falta de competición",
+                "Falta de oposición"
+            ]
+        },
+        {
+            "id": "the_six_of_wands",
+            "type": "Menores",
+            "title": "El seis de bastos",
+            "description": "Seis bastos con una corona en la parte superior",
+            "meaning_up": [
+                "Éxito",
+                "Triunfo",
+                "Victoria",
+                "Aprobación",
+                "Reconocimiento"
+            ],
+            "meaning_down": [
+                "Fracaso",
+                "Derrota",
+                "Falta de aprobación",
+                "Falta de reconocimiento"
+            ]
+        },
+        {
+            "id": "the_seven_of_wands",
+            "type": "Menores",
+            "title": "El siete de bastos",
+            "description": "Siete bastos con una figura defendiéndose de ellas",
+            "meaning_up": [
+                "Defensa",
+                "Resistencia",
+                "Coraje",
+                "Determinación",
+                "Valentía"
+            ],
+            "meaning_down": [
+                "Abandono",
+                "Rendición",
+                "Falta de coraje",
+                "Falta de determinación",
+                "Falta de valentía"
+            ]
+        },
+        {
+            "id": "the_eight_of_wands",
+            "type": "Menores",
+            "title": "El ocho de bastos",
+            "description": "Ocho bastos volando en el aire",
+            "meaning_up": [
+                "Movimiento rápido",
+                "Comunicación",
+                "Viajes",
+                "Progreso",
+                "Acción"
+            ],
+            "meaning_down": [
+                "Estrés",
+                "Retraso",
+                "Falta de comunicación",
+                "Falta de viajes",
+                "Falta de progreso",
+                "Falta de acción"
+            ]
+        },
+        {
+            "id": "the_nine_of_wands",
+            "type": "Menores",
+            "title": "El nueve de bastos",
+            "description": "Nueve bastos con una figura sosteniendo una vara",
+            "meaning_up": [
+                "Resiliencia",
+                "Determinación",
+                "Fortaleza",
+                "Perseverancia",
+                "Valentía"
+            ],
+            "meaning_down": [
+                "Debilidad",
+                "Falta de determinación",
+                "Falta de fortaleza",
+                "Falta de perseverancia",
+                "Falta de valentía"
+            ]
+        },
+        {
+            "id": "the_ten_of_wands",
+            "type": "Menores",
+            "title": "El diez de bastos",
+            "description": "Diez bastos con una figura cargando con ellas",
+            "meaning_up": [
+                "Sobrecarga",
+                "Exceso",
+                "Responsabilidad",
+                "Estrés",
+                "Agotamiento"
+            ],
+            "meaning_down": [
+                "Alivio",
+                "Descanso",
+                "Falta de responsabilidad",
+                "Falta de estrés",
+                "Energía"
+            ]
+        },
+        {
+            "id": "the_page_of_wands",
+            "type": "Menores",
+            "title": "El page de bastos",
+            "description": "Un muchacho con una vara y un trébol de cuatro hojas en la mano",
+            "meaning_up": [
+                "Nuevos comienzos",
+                "Creatividad",
+                "Inspiración",
+                "Mensajes",
+                "Oportunidades"
+            ],
+            "meaning_down": [
+                "Estancamiento",
+                "Falta de creatividad",
+                "Falta de inspiración",
+                "Falta de mensajes",
+                "Falta de oportunidades"
+            ]
+        },
+        {
+            "id": "the_knight_of_wands",
+            "type": "Menores",
+            "title": "El caballero de bastos",
+            "description": "Un caballero montando a caballo y sosteniendo una vara",
+            "meaning_up": [
+                "Acción",
+                "Movimiento rápido",
+                "Viajes",
+                "Valentía",
+                "Pasión"
+            ],
+            "meaning_down": [
+                "Inmovilidad",
+                "Falta de acción",
+                "Falta de viajes",
+                "Falta de valentía",
+                "Falta de pasión"
+            ]
+        },
+        {
+            "id": "the_queen_of_wands",
+            "type": "Menores",
+            "title": "La reina de bastos",
+            "description": "Una reina sosteniendo una vara y sentada en un trono",
+            "meaning_up": [
+                "Poder",
+                "Liderazgo",
+                "Autoridad",
+                "Confianza",
+                "Carisma"
+            ],
+            "meaning_down": [
+                "Debilidad",
+                "Falta de liderazgo",
+                "Falta de autoridad",
+                "Falta de confianza",
+                "Falta de carisma"
+            ]
+        },
+        {
+            "id": "the_king_of_wands",
+            "type": "Menores",
+            "title": "El rey de bastos",
+            "description": "Un rey sosteniendo una vara y sentado en un trono",
+            "meaning_up": [
+                "Poder",
+                "Liderazgo",
+                "Autoridad",
+                "Confianza",
+                "Carisma"
+            ],
+            "meaning_down": [
+                "Debilidad",
+                "Falta de liderazgo",
+                "Falta de autoridad",
+                "Falta de confianza",
+                "Falta de carisma"
+            ]
+        },
+        {
+            "id": "the_ace_of_cups",
+            "type": "Menores",
+            "title": "El as de copas",
+            "description": "Una copa con un trébol de cuatro hojas en el fondo",
+            "meaning_up": [
+                "Emoción",
+                "Amor",
+                "Alegría",
+                "Creatividad",
+                "Oportunidad"
+            ],
+            "meaning_down": [
+                "Falta de emoción",
+                "Falta de amor",
+                "Tristeza",
+                "Falta de creatividad",
+                "Falta de oportunidad"
+            ]
+        },
+        {
+            "id": "the_two_of_cups",
+            "type": "Menores",
+            "title": "El dos de copas",
+            "description": "Dos copas con un dragón en el fondo",
+            "meaning_up": [
+                "Unión",
+                "Amor",
+                "Armonía",
+                "Compromiso",
+                "Equilibrio"
+            ],
+            "meaning_down": [
+                "Separación",
+                "Falta de amor",
+                "Falta de armonía",
+                "Falta de compromiso",
+                "Desequilibrio"
+            ]
+        },
+        {
+            "id": "the_three_of_cups",
+            "type": "Menores",
+            "title": "El tres de copas",
+            "description": "Tres copas con una fiesta en el fondo",
+            "meaning_up": [
+                "Amistad",
+                "Celebración",
+                "Comunidad",
+                "Felicidad",
+                "Alegría"
+            ],
+            "meaning_down": [
+                "Soledad",
+                "Falta de amistad",
+                "Falta de celebración",
+                "Aislamiento",
+                "Tristeza"
+            ]
+        },
+        {
+            "id": "the_four_of_cups",
+            "type": "Menores",
+            "title": "El cuatro de copas",
+            "description": "Cuatro copas con una figura meditando bajo un árbol",
+            "meaning_up": [
+                "Reflexión",
+                "Introspección",
+                "Soledad",
+                "Descanso",
+                "Paz interior"
+            ],
+            "meaning_down": [
+                "Falta de reflexión",
+                "Falta de introspección",
+                "Falta de soledad",
+                "Falta de descanso",
+                "Falta de paz interior"
+            ]
+        },
+        {
+            "id": "the_five_of_cups",
+            "type": "Menores",
+            "title": "El cinco de copas",
+            "description": "Cinco copas con tres derribadas y una figura llorando",
+            "meaning_up": [
+                "Pérdida",
+                "Tristeza",
+                "Duelo",
+                "Aceptación",
+                "Reevaluación"
+            ],
+            "meaning_down": [
+                "Ganancia",
+                "Alegría",
+                "Falta de duelo",
+                "Falta de aceptación",
+                "Falta de reevaluación"
+            ]
+        },
+        {
+            "id": "the_six_of_cups",
+            "type": "Menores",
+            "title": "El seis de copas",
+            "description": "Seis copas con niños jugando a su alrededor",
+            "meaning_up": [
+                "Recuerdos",
+                "Nostalgia",
+                "Inocencia",
+                "Pureza",
+                "Amor incondicional"
+            ],
+            "meaning_down": [
+                "Olvido",
+                "Falta de nostalgia",
+                "Corrupción",
+                "Falta de pureza",
+                "Falta de amor incondicional"
+            ]
+        },
+        {
+            "id": "the_seven_of_cups",
+            "type": "Menores",
+            "title": "El siete de copas",
+            "description": "Siete copas con imágenes surrealistas en ellas",
+            "meaning_up": [
+                "Elección",
+                "Deseo",
+                "Ilusión",
+                "Fantasía",
+                "Sueños"
+            ],
+            "meaning_down": [
+                "Confusión",
+                "Falta de elección",
+                "Falta de deseo",
+                "Falta de ilusión",
+                "Falta de fantasía",
+                "Falta de sueños"
+            ]
+        },
+        {
+            "id": "the_eight_of_cups",
+            "type": "Menores",
+            "title": "El ocho de copas",
+            "description": "Ocho copas con una figura dejando atrás una fila de copas",
+            "meaning_up": [
+                "Abandono",
+                "Renuncia",
+                "Alejamiento",
+                "Cambio",
+                "Crecimiento"
+            ],
+            "meaning_down": [
+                "Dependencia",
+                "Falta de renuncia",
+                "Cercanía",
+                "Falta de cambio",
+                "Falta de crecimiento"
+            ]
+        },
+        {
+            "id": "the_nine_of_cups",
+            "type": "Menores",
+            "title": "El nueve de copas",
+            "description": "Nueve copas con una figura sonriendo y sosteniendo una copa",
+            "meaning_up": [
+                "Satisfacción",
+                "Felicidad",
+                "Éxito",
+                "Logro",
+                "Realización"
+            ],
+            "meaning_down": [
+                "Insatisfacción",
+                "Infelicidad",
+                "Fracaso",
+                "Falta de logro",
+                "Falta de realización"
+            ]
+        },
+        {
+            "id": "the_ten_of_cups",
+            "type": "Menores",
+            "title": "El diez de copas",
+            "description": "Diez copas formando un arcoiris",
+            "meaning_up": [
+                "Felicidad",
+                "Armonía",
+                "Amor",
+                "Paz",
+                "Completitud"
+            ],
+            "meaning_down": [
+                "Infelicidad",
+                "Falta de armonía",
+                "Falta de amor",
+                "Falta de paz",
+                "Incompletitud"
+            ]
+        },
+        {
+            "id": "the_page_of_cups",
+            "type": "Menores",
+            "title": "El page de copas",
+            "description": "Un muchacho sosteniendo una copa y un pez en el fondo",
+            "meaning_up": [
+                "Nuevos comienzos",
+                "Creatividad",
+                "Inspiración",
+                "Mensajes",
+                "Oportunidades"
+            ],
+            "meaning_down": [
+                "Estancamiento",
+                "Falta de creatividad",
+                "Falta de inspiración",
+                "Falta de mensajes",
+                "Falta de oportunidades"
+            ]
+        },
+        {
+            "id": "the_knight_of_cups",
+            "type": "Menores",
+            "title": "El caballero de copas",
+            "description": "Un caballero montando a caballo y sosteniendo una copa",
+            "meaning_up": [
+                "Acción",
+                "Movimiento rápido",
+                "Viajes",
+                "Valentía",
+                "Pasión"
+            ],
+            "meaning_down": [
+                "Inmovilidad",
+                "Falta de acción",
+                "Falta de viajes",
+                "Falta de valentía",
+                "Falta de pasión"
+            ]
+        },
+        {
+            "id": "the_queen_of_cups",
+            "type": "Menores",
+            "title": "La reina de copas",
+            "description": "Una reina sosteniendo una copa y sentada en un trono",
+            "meaning_up": [
+                "Poder",
+                "Liderazgo",
+                "Autoridad",
+                "Confianza",
+                "Carisma"
+            ],
+            "meaning_down": [
+                "Debilidad",
+                "Falta de liderazgo",
+                "Falta de autoridad",
+                "Falta de confianza",
+                "Falta de carisma"
+            ]
+        },
+        {
+            "id": "the_king_of_cups",
+            "type": "Menores",
+            "title": "El rey de copas",
+            "description": "Un rey sosteniendo una copa y sentado en un trono",
+            "meaning_up": [
+                "Poder",
+                "Liderazgo",
+                "Autoridad",
+                "Confianza",
+                "Carisma"
+            ],
+            "meaning_down": [
+                "Debilidad",
+                "Falta de liderazgo",
+                "Falta de autoridad",
+                "Falta de confianza",
+                "Falta de carisma"
+            ]
+        },
+        {
+            "id": "the_ace_of_swords",
+            "type": "Menores",
+            "title": "El as de espadas",
+            "description": "Un as de espadas con un trébol de cuatro hojas en el fondo",
+            "meaning_up": [
+                "Pensamiento claro",
+                "Verdad",
+                "Justicia",
+                "Honestidad",
+                "Decisión"
+            ],
+            "meaning_down": [
+                "Confusión",
+                "Mentira",
+                "Injusticia",
+                "Deshonestidad",
+                "Indecisión"
+            ]
+        },
+        {
+            "id": "the_two_of_swords",
+            "type": "Menores",
+            "title": "El dos de espadas",
+            "description": "Dos espadas cruzadas con una figura tapándose los ojos",
+            "meaning_up": [
+                "Indecisión",
+                "Conflicto",
+                "Duda",
+                "Neutralidad",
+                "Equilibrio"
+            ],
+            "meaning_down": [
+                "Decisión",
+                "Falta de conflicto",
+                "Certeza",
+                "Falta de neutralidad",
+                "Desequilibrio"
+            ]
+        },
+        {
+            "id": "the_three_of_swords",
+            "type": "Menores",
+            "title": "El tres de espadas",
+            "description": "Tres espadas atravesando un corazón roto",
+            "meaning_up": [
+                "Dolor",
+                "Sufrimiento",
+                "Traición",
+                "Separación",
+                "Soledad"
+            ],
+            "meaning_down": [
+                "Alegría",
+                "Falta de sufrimiento",
+                "Lealtad",
+                "Unión",
+                "Compañía"
+            ]
+        },
+        {
+            "id": "the_four_of_swords",
+            "type": "Menores",
+            "title": "El cuatro de espadas",
+            "description": "Cuatro espadas y una figura durmiendo en una tumba",
+            "meaning_up": [
+                "Descanso",
+                "Recuperación",
+                "Meditación",
+                "Reflexión",
+                "Paz"
+            ],
+            "meaning_down": [
+                "Agotamiento",
+                "Falta de recuperación",
+                "Falta de meditación",
+                "Falta de reflexión",
+                "Falta de paz"
+            ]
+        },
+        {
+            "id": "the_five_of_swords",
+            "type": "Menores",
+            "title": "El cinco de espadas",
+            "description": "Cinco espadas y una figura caminando alejándose de ellas",
+            "meaning_up": [
+                "Derrota",
+                "Pérdida",
+                "Humillación",
+                "Abandono",
+                "Vencimiento"
+            ],
+            "meaning_down": [
+                "Victoria",
+                "Ganancia",
+                "Honor",
+                "Permanencia",
+                "Triunfo"
+            ]
+        },
+        {
+            "id": "the_six_of_swords",
+            "type": "Menores",
+            "title": "El seis de espadas",
+            "description": "Seis espadas y una figura siendo transportada en una barca",
+            "meaning_up": [
+                "Movimiento",
+                "Viaje",
+                "Cambio",
+                "Progreso",
+                "Evolución"
+            ],
+            "meaning_down": [
+                "Estancamiento",
+                "Falta de viaje",
+                "Falta de cambio",
+                "Falta de progreso",
+                "Falta de evolución"
+            ]
+        },
+        {
+            "id": "the_seven_of_swords",
+            "type": "Menores",
+            "title": "El siete de espadas",
+            "description": "Siete espadas y una figura caminando alejándose con una espada en la mano",
+            "meaning_up": [
+                "Fraude",
+                "Engaño",
+                "Robo",
+                "Mentira",
+                "Traición"
+            ],
+            "meaning_down": [
+                "Honradez",
+                "Veracidad",
+                "Legalidad",
+                "Sinceridad",
+                "Lealtad"
+            ]
+        },
+        {
+            "id": "the_eight_of_swords",
+            "type": "Menores",
+            "title": "El ocho de espadas",
+            "description": "Ocho espadas rodeando a una figura atada y con los ojos vendados",
+            "meaning_up": [
+                "Restricción",
+                "Prisión",
+                "Limitación",
+                "Control",
+                "Opresión"
+            ],
+            "meaning_down": [
+                "Libertad",
+                "Independencia",
+                "Amplitud",
+                "Falta de control",
+                "Falta de opresión"
+            ]
+        },
+        {
+            "id": "the_nine_of_swords",
+            "type": "Menores",
+            "title": "El nueve de espadas",
+            "description": "Nueve espadas y una figura llorando en la cama",
+            "meaning_up": [
+                "Desesperación",
+                "Ansiedad",
+                "Miedo",
+                "Pérdida",
+                "Soledad"
+            ],
+            "meaning_down": [
+                "Esperanza",
+                "Tranquilidad",
+                "Valentía",
+                "Ganancia",
+                "Compañía"
+            ]
+        },
+        {
+            "id": "the_ten_of_swords",
+            "type": "Menores",
+            "title": "El diez de espadas",
+            "description": "Diez espadas atravesando un cuerpo",
+            "meaning_up": [
+                "Final",
+                "Muerte",
+                "Destrucción",
+                "Fin",
+                "Cierre"
+            ],
+            "meaning_down": [
+                "Nacimiento",
+                "Vida",
+                "Creación",
+                "Inicio",
+                "Apertura"
+            ]
+        },
+        {
+            "id": "the_page_of_swords",
+            "type": "Menores",
+            "title": "El page de espadas",
+            "description": "Un muchacho sosteniendo una espada y un pájaro volando en el fondo",
+            "meaning_up": [
+                "Nuevos comienzos",
+                "Noticias",
+                "Mensajes",
+                "Comunicación",
+                "Información"
+            ],
+            "meaning_down": [
+                "Estancamiento",
+                "Falta de noticias",
+                "Falta de mensajes",
+                "Falta de comunicación",
+                "Falta de información"
+            ]
+        },
+        {
+            "id": "the_knight_of_swords",
+            "type": "Menores",
+            "title": "El caballero de espadas",
+            "description": "Un caballero montando a caballo y sosteniendo una espada",
+            "meaning_up": [
+                "Acción",
+                "Movimiento rápido",
+                "Viajes",
+                "Valentía",
+                "Justicia"
+            ],
+            "meaning_down": [
+                "Inmovilidad",
+                "Falta de acción",
+                "Falta de viajes",
+                "Falta de valentía",
+                "Falta de justicia"
+            ]
+        },
+        {
+            "id": "the_queen_of_swords",
+            "type": "Menores",
+            "title": "La reina de espadas",
+            "description": "Una reina sosteniendo una espada y sentada en un trono",
+            "meaning_up": [
+                "Poder",
+                "Liderazgo",
+                "Autoridad",
+                "Mente clara",
+                "Objetividad"
+            ],
+            "meaning_down": [
+                "Debilidad",
+                "Falta de liderazgo",
+                "Falta de autoridad",
+                "Mente confusa",
+                "Subjetividad"
+            ]
+        },
+        {
+            "id": "the_king_of_swords",
+            "type": "Menores",
+            "title": "El rey de espadas",
+            "description": "Un rey sosteniendo una espada y sentado en un trono",
+            "meaning_up": [
+                "Poder",
+                "Liderazgo",
+                "Autoridad",
+                "Mente clara",
+                "Objetividad"
+            ],
+            "meaning_down": [
+                "Debilidad",
+                "Falta de liderazgo",
+                "Falta de autoridad",
+                "Mente confusa",
+                "Subjetividad"
+            ]
+        },
+        {
+            "id": "the_ace_of_pentacles",
+            "type": "Menores",
+            "title": "El as de oros",
+            "description": "Un as de oros con un trébol de cuatro hojas en el fondo",
+            "meaning_up": [
+                "Riqueza",
+                "Prosperidad",
+                "Éxito",
+                "Abundancia",
+                "Estabilidad financiera"
+            ],
+            "meaning_down": [
+                "Pobreza",
+                "Falta de prosperidad",
+                "Fracaso",
+                "Escasez",
+                "Inestabilidad financiera"
+            ]
+        },
+        {
+            "id": "the_two_of_pentacles",
+            "type": "Menores",
+            "title": "El dos de oros",
+            "description": "Dos oros y una figura haciendo malabares",
+            "meaning_up": [
+                "Equilibrio",
+                "Adaptabilidad",
+                "Cambio",
+                "Flexibilidad",
+                "Habilidad para manejar varias tareas al mismo tiempo"
+            ],
+            "meaning_down": [
+                "Desequilibrio",
+                "Falta de adaptabilidad",
+                "Falta de cambio",
+                "Falta de flexibilidad",
+                "Falta de habilidad para manejar varias tareas al mismo tiempo"
+            ]
+        },
+        {
+            "id": "the_three_of_pentacles",
+            "type": "Menores",
+            "title": "El tres de oros",
+            "description": "Tres oros y una figura trabajando con dos maestros",
+            "meaning_up": [
+                "Colaboración",
+                "Trabajo en equipo",
+                "Aprendizaje",
+                "Perfeccionamiento",
+                "Reconocimiento"
+            ],
+            "meaning_down": [
+                "Individualismo",
+                "Falta de colaboración",
+                "Falta de trabajo en equipo",
+                "Falta de aprendizaje",
+                "Falta de perfeccionamiento",
+                "Falta de reconocimiento"
+            ]
+        },
+        {
+            "id": "the_four_of_pentacles",
+            "type": "Menores",
+            "title": "El cuatro de oros",
+            "description": "Cuatro oros y una figura sujetándolos con fuerza",
+            "meaning_up": [
+                "Ahorro",
+                "Seguridad",
+                "Estabilidad",
+                "Conservación",
+                "Avaricia"
+            ],
+            "meaning_down": [
+                "Gasto",
+                "Inseguridad",
+                "Inestabilidad",
+                "Desperdicio",
+                "Generosidad"
+            ]
+        },
+        {
+            "id": "the_five_of_pentacles",
+            "type": "Menores",
+            "title": "El cinco de oros",
+            "description": "Cinco oros y dos figuras en el frío afuera de una iglesia",
+            "meaning_up": [
+                "Pobreza",
+                "Soledad",
+                "Exclusión",
+                "Desesperación",
+                "Necesidad"
+            ],
+            "meaning_down": [
+                "Riqueza",
+                "Compañía",
+                "Inclusión",
+                "Esperanza",
+                "Abundancia"
+            ]
+        },
+        {
+            "id": "the_six_of_pentacles",
+            "type": "Menores",
+            "title": "El seis de oros",
+            "description": "Seis oros y una figura dando a dos personas necesitadas",
+            "meaning_up": [
+                "Generosidad",
+                "Caridad",
+                "Compasión",
+                "Ayuda",
+                "Equilibrio"
+            ],
+            "meaning_down": [
+                "Egoísmo",
+                "Falta de caridad",
+                "Falta de compasión",
+                "Falta de ayuda",
+                "Desequilibrio"
+            ]
+        },
+        {
+            "id": "the_seven_of_pentacles",
+            "type": "Menores",
+            "title": "El siete de oros",
+            "description": "Siete oros y una figura esperando junto a ellos",
+            "meaning_up": [
+                "Espera",
+                "Evaluación",
+                "Reflexión",
+                "Análisis",
+                "Planificación"
+            ],
+            "meaning_down": [
+                "Acción impulsiva",
+                "Falta de evaluación",
+                "Falta de reflexión",
+                "Falta de análisis",
+                "Falta de planificación"
+            ]
+        },
+        {
+            "id": "the_eight_of_pentacles",
+            "type": "Menores",
+            "title": "El ocho de oros",
+            "description": "Ocho oros y una figura trabajando con herramientas",
+            "meaning_up": [
+                "Trabajo",
+                "Esfuerzo",
+                "Dedicación",
+                "Perfeccionamiento",
+                "Aprendizaje"
+            ],
+            "meaning_down": [
+                "Ociosidad",
+                "Falta de esfuerzo",
+                "Falta de dedicación",
+                "Falta de perfeccionamiento",
+                "Falta de aprendizaje"
+            ]
+        },
+        {
+            "id": "the_nine_of_pentacles",
+            "type": "Menores",
+            "title": "El nueve de oros",
+            "description": "Nueve oros y una figura caminando por un jardín con un halcón a su lado",
+            "meaning_up": [
+                "Comodidad",
+                "Lujo",
+                "Independencia",
+                "Satisfacción",
+                "Armonía"
+            ],
+            "meaning_down": [
+                "Incomodidad",
+                "Falta de lujo",
+                "Dependencia",
+                "Insatisfacción",
+                "Desarmonía"
+            ]
+        },
+        {
+            "id": "the_ten_of_pentacles",
+            "type": "Menores",
+            "title": "El diez de oros",
+            "description": "Diez oros y una figura sentada junto a una familia",
+            "meaning_up": [
+                "Patrimonio",
+                "Riqueza",
+                "Estabilidad financiera",
+                "Seguridad",
+                "Armonía familiar"
+            ],
+            "meaning_down": [
+                "Pobreza",
+                "Falta de riqueza",
+                "Inestabilidad financiera",
+                "Inseguridad",
+                "Desarmonía familiar"
+            ]
+        },
+        {
+            "id": "the_page_of_pentacles",
+            "type": "Menores",
+            "title": "El page de oros",
+            "description": "Un muchacho sosteniendo un oro y un libro",
+            "meaning_up": [
+                "Nuevos comienzos",
+                "Estudio",
+                "Aprendizaje",
+                "Creatividad",
+                "Ideas"
+            ],
+            "meaning_down": [
+                "Estancamiento",
+                "Falta de estudio",
+                "Falta de aprendizaje",
+                "Falta de creatividad",
+                "Falta de ideas"
+            ]
+        },
+        {
+            "id": "the_knight_of_pentacles",
+            "type": "Menores",
+            "title": "El caballero de oros",
+            "description": "Un caballero montando a caballo y sosteniendo un oro",
+            "meaning_up": [
+                "Trabajo",
+                "Esfuerzo",
+                "Dedicación",
+                "Responsabilidad",
+                "Fiabilidad"
+            ],
+            "meaning_down": [
+                "Ociosidad",
+                "Falta de esfuerzo",
+                "Falta de dedicación",
+                "Falta de responsabilidad",
+                "Falta de fiabilidad"
+            ]
+        },
+        {
+            "id": "the_queen_of_pentacles",
+            "type": "Menores",
+            "title": "La reina de oros",
+            "description": "Una reina sosteniendo un oro y sentada junto a un jardín",
+            "meaning_up": [
+                "Abundancia",
+                "Prosperidad",
+                "Seguridad financiera",
+                "Estabilidad",
+                "Naturaleza"
+            ],
+            "meaning_down": [
+                "Escasez",
+                "Falta de prosperidad",
+                "Falta de seguridad financiera",
+                "Inestabilidad",
+                "Falta de conexión con la naturaleza"
+            ]
+        },
+        {
+            "id": "the_king_of_pentacles",
+            "type": "Menores",
+            "title": "El rey de oros",
+            "description": "Un rey sosteniendo un oro y sentado en un trono",
+            "meaning_up": [
+                "Poder",
+                "Liderazgo",
+                "Autoridad",
+                "Estabilidad financiera",
+                "Confianza en sí mismo"
+            ],
+            "meaning_down": [
+                "Debilidad",
+                "Falta de liderazgo",
+                "Falta de autoridad",
+                "Inestabilidad financiera",
+                "Falta de confianza en sí mismo"
+            ]
+        }
+    ]
+}
