@@ -15,7 +15,26 @@ class TarotCardPicker:
             cards = data["cards"]
             return cards
 
-    def pick_a_card(self, card_type: str = ""):
+    def __pick_a_card(self, card_type: str):
+        if card_type:
+                cards_filtered = [card for card in self.__cards if card["type"] == card_type]
+                card = random.choice(cards_filtered)
+        else:
+            card = random.choice(self.__cards)
+        meaning = random.choice(["up", "down"])
+        return card, meaning
+
+    def __pick_n_cards(self, card_type: str, num_cards: int):
+        cards = []
+        meanings = []
+
+        for _ in range(3):
+            card, meaning = self.__pick_a_card(card_type)
+            cards.append(card)
+            meanings.append(meaning)
+        return cards, meanings
+        
+    def simple_spread(self, card_type: str = ""):
         """
         Select randomly a card, up or down.
         Return two lists, cards and meanings.
@@ -24,53 +43,83 @@ class TarotCardPicker:
         title = "Tu fortuna simple"
         cards = []
         meanings = []
-        if card_type:
-            cards_filtered = [card for card in self.__cards if card["type"] == card_type]
-            cards.append(random.choice(cards_filtered))
-        else:
-            cards.append(random.choice(self.__cards))
-        meanings.append(random.choice(["up", "down"]))
+        
+        card, meaning = self.__pick_a_card(card_type)
+        cards.append(card)
+        meanings.append(meaning)
         return title, cards, meanings
 
-    def draw_past_present_future(self, card_type: str = ""):
+    def past_present_future_spread(self, card_type: str = ""):
         """
         Select randomly 3 cards, up or down.
         Return two lists, cards and meanings.
         Linking the past, the present and the future.
         """
-        title = "Pasado, presente y futuro"
+        title = "Reparto del Pasado, presente y futuro"
         cards = []
         meanings = []
 
-        for _ in range(3):
-            if card_type:
-                cards_filtered = [card for card in self.__cards if card["type"] == card_type]
-                cards.append(random.choice(cards_filtered))
-            else:
-                cards.append(random.choice(self.__cards))
-            meanings.append(random.choice(["up", "down"]))
+        cards, meanings = self.__pick_n_cards(card_type, 3)
         return title, cards, meanings
 
-    def draw_circle_for_depth(self, card_type: str = "", num_cards: int = 5):
+    def circle_spread(self, card_type: str = "", num_cards: int = 5):
         """
         Select randomly a number of cards between 5 and 8, inclusive.
         Return two lists, cards and meanings.
         """
-        title = "Círculo para la profundidad"
+        title = "Reparto del Círculo, para un tema en profundidad"
         cards = []
         meanings = []
 
         if num_cards < 5 or num_cards > 8:
             raise ValueError("El número de cartas debe estar entre 5 y 8, incluyendo ambos extremos.")
 
-        for _ in range(num_cards):
-            if card_type:
-                cards_filtered = [card for card in self.__cards if card["type"] == card_type]
-                cards.append(random.choice(cards_filtered))
-            else:
-                cards.append(random.choice(self.__cards))
-            meanings.append(random.choice(["up", "down"]))
+        cards, meanings = self.__pick_n_cards(card_type, num_cards)
+        return title, cards, meanings
 
+    def life_tree_spread(self, card_type: str = "", num_cards: int = 5):
+        """
+        Select randomly a number of cards between 5 and 10, inclusive.
+        Return two lists, cards and meanings.
+        """
+        title = "Reparto del Árbol de la vida"
+        cards = []
+        meanings = []
+
+        if num_cards < 5 or num_cards > 10:
+            raise ValueError("El número de cartas debe estar entre 5 y 10, incluyendo ambos extremos.")
+
+        cards, meanings = self.__pick_n_cards(card_type, num_cards)
+        return title, cards, meanings
+
+    def human_body_spread(self, card_type: str = "", num_cards: int = 5):
+        """
+        Select randomly a number of cards between 5 and 9, inclusive.
+        Return two lists, cards and meanings.
+        """
+        title = "Reparto del cuerpo humano, para el estado físico y mental"
+        cards = []
+        meanings = []
+
+        if num_cards < 5 or num_cards > 9:
+            raise ValueError("El número de cartas debe estar entre 5 y 9, incluyendo ambos extremos.")
+
+        cards, meanings = self.__pick_n_cards(card_type, num_cards)
+        return title, cards, meanings
+    
+    def celtic_cross_spread(self, card_type: str = "", num_cards: int = 5):
+        """
+        Select randomly a 5 cards.
+        Return two lists, cards and meanings.
+        """
+        title = "Reparto de la Cruz Celta"
+        cards = []
+        meanings = []
+
+        if not num_cards == 5:
+            raise ValueError("El número de cartas debe ser 5.")
+
+        cards, meanings = self.__pick_n_cards(card_type, num_cards)
         return title, cards, meanings
 
     def print_result(self, title, cards, meanings):
@@ -79,7 +128,6 @@ class TarotCardPicker:
         table.add_column("Sentido")
         table.add_column("Significado")
         for card, meaning in zip(cards, meanings):
-            
             if meaning == "up":
                 table.add_row(card['title'], "Boca arriba", ", ".join(card['meaning_up']))
             else:
