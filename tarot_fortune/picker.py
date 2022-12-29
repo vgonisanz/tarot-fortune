@@ -28,12 +28,24 @@ class TarotCardPicker:
         cards = []
         meanings = []
 
-        for _ in range(3):
+        for _ in range(num_cards):
             card, meaning = self.__pick_a_card(card_type)
             cards.append(card)
             meanings.append(meaning)
         return cards, meanings
-        
+    
+    def get_card_list(self):
+        """
+        Return a list with the card id and title.
+        If simple_view is True, only return the id and title.
+        If simple_view is False, return a tuple with the id, title, and type.
+        """
+        card_list = []
+
+        for card in self.__cards:
+            card_list.append((card["id"], card["title"], card["type"]))
+        return card_list
+
     def simple_spread(self, card_type: str = ""):
         """
         Select randomly a card, up or down.
@@ -135,3 +147,17 @@ class TarotCardPicker:
         print()
         print(table)
         print()
+
+    def print_card_list(self, card_list, simple_view):
+        if simple_view:
+            print([x[0] for x in card_list])
+        else:
+            table = Table(title="Cartas disponibles", show_header=True, header_style="bold red")
+            table.add_column("ID")
+            table.add_column("Título")
+            table.add_column("Tipo")
+            for id, title, card_type in card_list:
+                table.add_row(id, title, card_type)
+            print()
+            print(table)
+            print()

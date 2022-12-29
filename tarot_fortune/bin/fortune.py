@@ -82,7 +82,7 @@ def human_body(cards_path: str = "tarot_fortune/data/es/cards.json",
 
 @app.command()
 def celtic_cross(cards_path: str = "tarot_fortune/data/es/cards.json",
-                        card_type: str = ""):
+                 card_type: str = ""):
     """
     The Celtic Cross spread
     
@@ -98,6 +98,20 @@ def celtic_cross(cards_path: str = "tarot_fortune/data/es/cards.json",
     tarot_picker = TarotCardPicker(cards_path)
     title, card, meaning = tarot_picker.celtic_cross_spread(card_type, 5)
     tarot_picker.print_result(title, card, meaning)
+
+
+@app.command()
+def cards(cards_path: str = "tarot_fortune/data/es/cards.json", simple_view: bool = False):
+    """
+    List loaded cards
+
+    Show all available cards in the loaded deck in a table or simple list form.
+    If simple_view is True, only print the values.
+    If simple_view is False, print a table.
+    """
+    tarot_picker = TarotCardPicker(cards_path)
+    card_list = tarot_picker.get_card_list()
+    tarot_picker.print_card_list(card_list, simple_view)
 
 
 if __name__ == "__main__":
