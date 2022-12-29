@@ -44,6 +44,12 @@ Then, you can run `make help`.
 Learn more about the different tasks
 you can perform on this project using [make](https://www.gnu.org/software/make/).
 
+### Utils
+
+- card-term-viewer: It is a helper to render in terminal images.
+  That could help in development.
+- tarot_csv_to_json: This is a CSV to JSON converter to ease data exchange.
+
 ### Upgrade dependencies
 
 From scratch, use the following command to generate `requirements{-dev}.txt` files:
