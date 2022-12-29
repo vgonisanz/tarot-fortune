@@ -6,7 +6,7 @@ app = typer.Typer(help="Tarot fortune-telling application")
 
 
 @app.command()
-def single(cards_path: str = "tarot_fortune/data/es/cards.json", card_type: str = ""):
+def single(cards_path: str = "tarot_fortune/data/text/es/cards.json", card_type: str = ""):
     """
     Single card draw
     
@@ -19,7 +19,7 @@ def single(cards_path: str = "tarot_fortune/data/es/cards.json", card_type: str 
 
 
 @app.command()
-def past_present_future(cards_path: str = "tarot_fortune/data/es/cards.json", card_type: str = ""):
+def past_present_future(cards_path: str = "tarot_fortune/data/text/es/cards.json", card_type: str = ""):
     """
     Past, present, and future spread
     
@@ -35,7 +35,7 @@ def past_present_future(cards_path: str = "tarot_fortune/data/es/cards.json", ca
 
 
 @app.command()
-def circle(cards_path: str = "tarot_fortune/data/es/cards.json",
+def circle(cards_path: str = "tarot_fortune/data/text/es/cards.json",
                           card_type: str = "", num_cards: int = 5):
     """
     Circle spread
@@ -50,7 +50,7 @@ def circle(cards_path: str = "tarot_fortune/data/es/cards.json",
 
 
 @app.command()
-def life_tree(cards_path: str = "tarot_fortune/data/es/cards.json",
+def life_tree(cards_path: str = "tarot_fortune/data/text/es/cards.json",
                           card_type: str = "", num_cards: int = 5):
     """
     Tarot spread for the tree of life
@@ -66,7 +66,7 @@ def life_tree(cards_path: str = "tarot_fortune/data/es/cards.json",
 
 
 @app.command()
-def human_body(cards_path: str = "tarot_fortune/data/es/cards.json",
+def human_body(cards_path: str = "tarot_fortune/data/text/es/cards.json",
                     card_type: str = "", num_cards: int = 5):
     """
     Tarot spread for the human body
@@ -81,7 +81,7 @@ def human_body(cards_path: str = "tarot_fortune/data/es/cards.json",
 
 
 @app.command()
-def celtic_cross(cards_path: str = "tarot_fortune/data/es/cards.json",
+def celtic_cross(cards_path: str = "tarot_fortune/data/text/es/cards.json",
                  card_type: str = ""):
     """
     The Celtic Cross spread
@@ -101,7 +101,7 @@ def celtic_cross(cards_path: str = "tarot_fortune/data/es/cards.json",
 
 
 @app.command()
-def cards(cards_path: str = "tarot_fortune/data/es/cards.json", simple_view: bool = False):
+def cards(cards_path: str = "tarot_fortune/data/text/es/cards.json", simple_view: bool = False):
     """
     List loaded cards
 
