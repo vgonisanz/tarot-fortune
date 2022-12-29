@@ -134,7 +134,7 @@ class TarotCardPicker:
         cards, meanings = self.__pick_n_cards(card_type, num_cards)
         return title, cards, meanings
 
-    def print_result(self, title, cards, meanings):
+    def print_result(self, title, cards, meanings, print_cards: bool = False):
         table = Table(title=title)
         table.add_column("Nombre de la carta")
         table.add_column("Sentido")
@@ -144,6 +144,10 @@ class TarotCardPicker:
                 table.add_row(card['title'], "Boca arriba", ", ".join(card['meaning_up']))
             else:
                 table.add_row(card['title'], "Boca abajo", ", ".join(card['meaning_down']))
+        
+        if print_cards:
+            print("IN PROGRESS")
+
         print()
         print(table)
         print()

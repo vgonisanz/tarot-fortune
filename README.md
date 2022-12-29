@@ -20,8 +20,15 @@ TBD
 
 ## Features
 
-- Single card selection usable.
-- es language supported only.
+- Several commands to get fortune, tarot spreads, and utils:
+  - cards: List loaded cards
+  - celtic-cross: The Celtic Cross spread
+  - circle: Circle spread
+  - human-body: Tarot spread for the human body
+  - life-tree: Tarot spread for the tree of life
+  - past-present-future: Past, present, and future spread
+  - single: Single card draw
+- Only `es` language supported by now.
 - render bash *in development*
 
 ## Development
@@ -64,4 +71,11 @@ Please see the [Contributing Guidelines](./CONTRIBUTING.md) section for more det
 
 ## License
 
-[GNU General Public License v3](./LICENSE)
+- [GNU General Public License v3](./LICENSE)
+- About the `resources/rider-taite-tarot`:
+  The original version of the Rider–Waite Tarot is in the public domain
+  in all countries that have a copyright term of 70 years
+  or fewer after the death of the last co-author.
+  This includes the United Kingdom, where the deck was originally published.
+  ~2021/12.
+  So belong to the Public Domain.
