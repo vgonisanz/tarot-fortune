@@ -27,3 +27,7 @@ def timeit(f):
         logger.info("timeit", name=f.__name__, t_in_s=round(te-ts, 2))
         return result
     return wrap
+
+
+def get_default_resources_path():
+    return "tarot_fortune/data/text/es/cards.json"

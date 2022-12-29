@@ -2,21 +2,27 @@
 
 # vgonisanz's Tarot fortune
 
-**DISCLAIMER**: Use for fantasy purposes only.
-Translations, interpretations, predictions and other elements used may not correspond to reality.
-No warranty of any kind.
-Used for programming tinkering
-Do not follow to the letter.
-Do not rely on predictions.
-Danger of death.
+Small python project to do the mythological tarot card divination,
+but by terminal.
 
 </div>
 
-Small python project to do the mythological tarot card divination, but by terminal.
-
-## Usage
-
-TBD
+- **DISCLAIMER**: Use for fantasy purposes only.
+    Translations, interpretations, predictions and other elements used may not correspond to reality.
+    No warranty of any kind.
+    Used for programming tinkering
+    Do not follow to the letter.
+    Do not rely on predictions.
+    Danger of death.
+- If you think this is all claptrap,
+  you may or may not be right.
+  But as a programming practice it is interesting.
+  Don't you think?
+  Surely you are a [skeptic](https://en.wikipedia.org/wiki/Skepticism).
+  Congratulations.
+- If not, you are probably right and want to pay for my children's college.
+  You can send me money and I'll schedule some more moves for you.
+  Thanks for being such a [Parasychologist](https://en.wikipedia.org/wiki/Parapsychology)
 
 ## Features
 
@@ -30,6 +36,10 @@ TBD
   - single: Single card draw
 - Only `es` language supported by now.
 - render bash *in development*
+
+## Usage
+
+TBD
 
 ## Development
 

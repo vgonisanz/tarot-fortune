@@ -1,12 +1,15 @@
 import typer
+
 from tarot_fortune.picker import TarotCardPicker
+from tarot_fortune.psychic import Psychic
+from tarot_fortune.utils import get_default_resources_path
 
 
 app = typer.Typer(help="Tarot fortune-telling application")
 
 
 @app.command()
-def single(cards_path: str = "tarot_fortune/data/text/es/cards.json", card_type: str = ""):
+def single(cards_path: str = get_default_resources_path(), card_type: str = ""):
     """
     Single card draw
     
@@ -19,7 +22,7 @@ def single(cards_path: str = "tarot_fortune/data/text/es/cards.json", card_type:
 
 
 @app.command()
-def past_present_future(cards_path: str = "tarot_fortune/data/text/es/cards.json", card_type: str = ""):
+def past_present_future(cards_path: str = get_default_resources_path(), card_type: str = ""):
     """
     Past, present, and future spread
     
@@ -35,7 +38,7 @@ def past_present_future(cards_path: str = "tarot_fortune/data/text/es/cards.json
 
 
 @app.command()
-def circle(cards_path: str = "tarot_fortune/data/text/es/cards.json",
+def circle(cards_path: str = get_default_resources_path(),
                           card_type: str = "", num_cards: int = 5):
     """
     Circle spread
@@ -50,7 +53,7 @@ def circle(cards_path: str = "tarot_fortune/data/text/es/cards.json",
 
 
 @app.command()
-def life_tree(cards_path: str = "tarot_fortune/data/text/es/cards.json",
+def life_tree(cards_path: str = get_default_resources_path(),
                           card_type: str = "", num_cards: int = 5):
     """
     Tarot spread for the tree of life
@@ -66,7 +69,7 @@ def life_tree(cards_path: str = "tarot_fortune/data/text/es/cards.json",
 
 
 @app.command()
-def human_body(cards_path: str = "tarot_fortune/data/text/es/cards.json",
+def human_body(cards_path: str = get_default_resources_path(),
                     card_type: str = "", num_cards: int = 5):
     """
     Tarot spread for the human body
@@ -81,7 +84,7 @@ def human_body(cards_path: str = "tarot_fortune/data/text/es/cards.json",
 
 
 @app.command()
-def celtic_cross(cards_path: str = "tarot_fortune/data/text/es/cards.json",
+def celtic_cross(cards_path: str = get_default_resources_path(),
                  card_type: str = ""):
     """
     The Celtic Cross spread
@@ -101,7 +104,7 @@ def celtic_cross(cards_path: str = "tarot_fortune/data/text/es/cards.json",
 
 
 @app.command()
-def cards(cards_path: str = "tarot_fortune/data/text/es/cards.json", simple_view: bool = False):
+def cards(cards_path: str = get_default_resources_path(), simple_view: bool = False):
     """
     List loaded cards
 
@@ -113,6 +116,16 @@ def cards(cards_path: str = "tarot_fortune/data/text/es/cards.json", simple_view
     card_list = tarot_picker.get_card_list()
     tarot_picker.print_card_list(card_list, simple_view)
 
+
+@app.command()
+def psychic(cards_path: str = get_default_resources_path()):
+    """
+    The psychic will take care of your divination.
+    All you have to do is interact with her.
+    """
+    psychic = Psychic()
+    psychic.make_prediction()
+          
 
 if __name__ == "__main__":
     app()
