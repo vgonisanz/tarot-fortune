@@ -5,8 +5,11 @@ from rich import print
 from rich.table import Table
 
 
+from tarot_fortune.utils import get_cards_json
+
+
 class TarotCardPicker:
-    def __init__(self, cards_path: str = "../data/es/cards.json"):
+    def __init__(self, cards_path: str = get_cards_json('es')):
         self.__cards = self.__load_cards(cards_path)
 
     def __load_cards(self, cards_path):

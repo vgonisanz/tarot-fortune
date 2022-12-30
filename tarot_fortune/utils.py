@@ -30,4 +30,8 @@ def timeit(f):
 
 
 def get_default_resources_path():
-    return "tarot_fortune/data/text/es/cards.json"
+    return os.path.join('tarot_fortune', 'data')
+
+
+def get_cards_json(language: str = 'es'):
+    return os.path.join(get_default_resources_path(), f'text/{language}/cards.json')
