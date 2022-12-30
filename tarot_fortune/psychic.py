@@ -28,6 +28,20 @@ class Psychic:
         self.__console.print(f"¿No confías en {self.__name}? Pues ahí tienes la puerta", style="bold red")
         exit(0)
 
+    def __ask_custom_prediction(self):
+        chosen_card = input("Dime la carta que quieres dandome su nombre: ")
+        found = False
+        for card in self.__tarot_picker.get_card_list():
+            if card.title == chosen_card:
+                orientation = input("Elige si quieres la carta arriba(up) o abajo(down): ")
+                while orientation not in ["up", "down"]:
+                    self.__console.print("La elección que has hecho es inválida. Prueba otra vez.")
+                    orientation = input("Elige si quieres la carta arriba(up) o abajo(down): ")
+                Renderer.print_card_list([card], simple_view=False)
+                found = True 
+        if not found:
+            self.__console.print("Ese ID de carta no existe")
+
     def __print_main_menu(self):
         self.__console.print(f"Bienvenido a la lectura de tarot de {self.__name}", style="bold red")
         self.__console.print("Yo soy la pitonisa y soy capaz de hacer contacto con fuentes del más allá.")
@@ -59,14 +73,7 @@ class Psychic:
             card_list = self.__predictions[prediction_type]()
             Renderer.print_card_list(card_list, simple_view=False)
         elif prediction_type == 8:
-            choosen_card = input("Dime la carta que quieres dandome su nombre: ")
-            found = False
-            for card in self.__tarot_picker.get_card_list():
-                if card.title == choosen_card:
-                    Renderer.print_card_list([card], simple_view=False)
-                    found = True 
-            if not found:
-                self.__console.print("Ese ID de carta no existe")
+            self.__ask_custom_prediction()
         else:
             title, cards = self.__predictions[prediction_type]()
             Renderer.print_result(title, cards)
