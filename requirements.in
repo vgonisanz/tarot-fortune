@@ -2,5 +2,5 @@ typer
 rich
 structlog
 pillow
-imgrender
 pydantic
+term_image>=0.4,<0.5    # In development

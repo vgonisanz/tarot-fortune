@@ -79,6 +79,15 @@ make env-compile
 
 Please see the [Contributing Guidelines](./CONTRIBUTING.md) section for more details on how you can contribute to this project.
 
+## Dependencies
+
+- [Term image](https://github.com/AnonymouX47/term-image): Still in development,
+  It is a good dependency to render in terminal.
+  Maybe in the future will add more interesting features (like flip or rotate)
+- Other alternatives like [imgrender](https://github.com/djentleman/imgrender)
+  can be used to this purpose.
+- Pydantic, typer, rich and structlog are classics.
+
 ## License
 
 - [GNU General Public License v3](./LICENSE)

@@ -4,9 +4,15 @@ from tarot_fortune.picker import TarotCardPicker
 from tarot_fortune.psychic import Psychic
 from tarot_fortune.renderer import Renderer
 from tarot_fortune.utils import get_cards_json
+from tarot_fortune.utils import setup_logger
 
 
 app = typer.Typer(help="Tarot fortune-telling application")
+
+
+@app.callback()
+def before_commands():
+    setup_logger()
 
 
 @app.command()

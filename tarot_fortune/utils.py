@@ -16,6 +16,7 @@ def setup_logger():
     logging.root.handlers = []
     logging.basicConfig(format='%(asctime)s - %(name)s : %(levelname)s : %(message)s',
                         level=logging.DEBUG)
+    logging.getLogger('PIL').setLevel(logging.ERROR)
 
 
 def timeit(f):
@@ -35,3 +36,7 @@ def get_default_resources_path():
 
 def get_cards_json(language: str = 'es'):
     return os.path.join(get_default_resources_path(), f'text/{language}/cards.json')
+
+
+def get_card_path(id: str, deck: str = "rider-taite-tarot"):
+    return os.path.join(get_default_resources_path(), "cards", f"{deck}", f"{id}.jpg")
