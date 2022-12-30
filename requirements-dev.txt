@@ -134,6 +134,8 @@ pycodestyle==2.8.0
     # via -r requirements-dev.in
 pycparser==2.21
     # via cffi
+pydantic==1.10.4
+    # via -r requirements.txt
 pygments==2.13.0
     # via
     #   -r requirements.txt
@@ -234,10 +236,12 @@ twine==4.0.1
     # via -r requirements-dev.in
 typer==0.4.1
     # via -r requirements.txt
-typing-extensions==4.2.0
+typing-extensions==4.4.0
     # via
+    #   -r requirements.txt
     #   astroid
     #   black
+    #   pydantic
     #   pylint
 urllib3==1.26.9
     # via

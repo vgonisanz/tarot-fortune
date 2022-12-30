@@ -12,6 +12,8 @@ pillow==9.1.1
     # via
     #   -r requirements.in
     #   imgrender
+pydantic==1.10.4
+    # via -r requirements.in
 pygments==2.13.0
     # via rich
 rich==12.6.0
@@ -20,3 +22,5 @@ structlog==21.5.0
     # via -r requirements.in
 typer==0.4.1
     # via -r requirements.in
+typing-extensions==4.4.0
+    # via pydantic

@@ -2,6 +2,7 @@ import typer
 
 from tarot_fortune.picker import TarotCardPicker
 from tarot_fortune.psychic import Psychic
+from tarot_fortune.renderer import Renderer
 from tarot_fortune.utils import get_cards_json
 
 
@@ -17,8 +18,8 @@ def single(cards_path: str = get_cards_json('es'), card_type: str = ""):
     and reading it as a response to a question or as a reflection on the day.
     """
     tarot_picker = TarotCardPicker(cards_path)
-    title, card, meaning = tarot_picker.simple_spread(card_type)
-    tarot_picker.print_result(title, card, meaning)
+    title, card = tarot_picker.simple_spread(card_type)
+    Renderer.print_result(title, card)
 
 
 @app.command()
@@ -33,13 +34,13 @@ def past_present_future(cards_path: str = get_cards_json('es'), card_type: str =
     representing the past, present, and future.
     """
     tarot_picker = TarotCardPicker(cards_path)
-    title, card, meaning = tarot_picker.past_present_future_spread(card_type)
-    tarot_picker.print_result(title, card, meaning)
+    title, cards = tarot_picker.past_present_future_spread(card_type)
+    Renderer.print_result(title, cards)
 
 
 @app.command()
 def circle(cards_path: str = get_cards_json('es'),
-                          card_type: str = "", num_cards: int = 6):
+           card_type: str = "", num_cards: int = 6):
     """
     Circle spread
     
@@ -48,8 +49,8 @@ def circle(cards_path: str = get_cards_json('es'),
     around the question or topic being explored.
     """
     tarot_picker = TarotCardPicker(cards_path)
-    title, card, meaning = tarot_picker.circle_spread(card_type, num_cards)
-    tarot_picker.print_result(title, card, meaning)
+    title, cards = tarot_picker.circle_spread(card_type, num_cards)
+    Renderer.print_result(title, cards)
 
 
 @app.command()
@@ -64,8 +65,8 @@ def life_tree(cards_path: str = get_cards_json('es'),
     representing different aspects of life.
     """
     tarot_picker = TarotCardPicker(cards_path)
-    title, card, meaning = tarot_picker.life_tree_spread(card_type, num_cards)
-    tarot_picker.print_result(title, card, meaning)
+    title, cards = tarot_picker.life_tree_spread(card_type, num_cards)
+    Renderer.print_result(title, cards)
 
 
 @app.command()
@@ -79,8 +80,8 @@ def human_body(cards_path: str = get_cards_json('es'),
     representing different aspects of health and well-being.
     """
     tarot_picker = TarotCardPicker(cards_path)
-    title, card, meaning = tarot_picker.human_body_spread(card_type, num_cards)
-    tarot_picker.print_result(title, card, meaning)
+    title, cards = tarot_picker.human_body_spread(card_type, num_cards)
+    Renderer.print_result(title, cards)
 
 
 @app.command()
@@ -99,8 +100,25 @@ def celtic_cross(cards_path: str = get_cards_json('es'),
     or question being explored can be obtained.
     """
     tarot_picker = TarotCardPicker(cards_path)
-    title, card, meaning = tarot_picker.celtic_cross_spread(card_type, 5)
-    tarot_picker.print_result(title, card, meaning)
+    title, cards = tarot_picker.celtic_cross_spread(card_type, 5)
+    Renderer.print_result(title, cards)
+
+
+@app.command()
+def show_card(card_title: str, orientation: str = "up", cards_path: str = get_cards_json('es')):
+    """
+    Choose a card to view.
+    
+    The card mush exist.
+    orientation must be up or down.
+    """
+    tarot_picker = TarotCardPicker(cards_path)
+    card = tarot_picker.get_card_by_title(card_title, orientation)
+
+    if card == None:
+        print("Especificame un nombre de carta correctamente y si esta boca arriba (up) o boca abajo (down).")
+    else:
+        Renderer.print_result(title="Esta es tu carta", cards=[card])
 
 
 @app.command()
@@ -114,7 +132,7 @@ def cards(cards_path: str = get_cards_json('es'), simple_view: bool = False):
     """
     tarot_picker = TarotCardPicker(cards_path)
     card_list = tarot_picker.get_card_list()
-    tarot_picker.print_card_list(card_list, simple_view)
+    Renderer.print_card_list(card_list, simple_view)
 
 
 @app.command()
