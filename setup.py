@@ -4,19 +4,19 @@ import os
 import re
 import subprocess
 import sys
-from setuptools import setup, find_packages
+from setuptools import setup, find_namespace_packages
 from setuptools.command.build_ext import build_ext as _build_ext
 
 # Packages to include in the distribution
-packages = find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"])
+packages = find_namespace_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests", "extras"])
 
 # Additional data required to install this package
 package_data = {
-    'tarot_fortune': ['data/sample.json']
+    'tarot_fortune': [
+        os.path.join('resources', 'cards', '*', '*'),
+        os.path.join('resources', 'text', '*', '*')
+    ]
 }
-
-# Files with that are data out of the package
-# data_files=[('my_data', ['data/data_file'])],
 
 # List of dependencies minimally needed by this project to run
 with open('requirements.in') as f:
@@ -27,16 +27,14 @@ classifiers = [
     'Development Status :: 5 - Production/Stable',
     'Intended Audience :: Developers',
     'Natural Language :: English',
-    'Topic :: Software Development :: Tools',
-    'License :: OSI Approved :: GNU General Public License v3',
+    'License :: OSI Approved :: MIT License',
     'Programming Language :: Python :: 3',
     'Programming Language :: Python :: 3.7',
-    'Programming Language :: Python :: Implementation :: CPython',
     'Programming Language :: Python :: Implementation :: PyPy'
 ]
 
 # Keywords to help users find this package on PyPi
-keywords = ''
+keywords = ['tarot', 'fortune', 'rider']
 
 here = os.path.abspath(os.path.dirname(__file__))
 meta = {}
@@ -65,5 +63,6 @@ setup(
     install_requires=install_requires,
     package_data=package_data,
     include_package_data=True,
-    python_requires=">=3.6.*, <4"
+    python_requires=">=3.6.*, <4",
+    download_url='https://github.com/vgonisanz/tarot-fortune/archive/refs/tags/v0.2.0.tar.gz' # TODO
 )

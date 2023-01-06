@@ -34,8 +34,19 @@ but by terminal.
   - life-tree: Tarot spread for the tree of life
   - past-present-future: Past, present, and future spread
   - single: Single card draw
+- Card bash rendering.
 - Only `es` language supported by now.
-- render bash *in development*
+
+### TODO
+
+- Multilanguage.
+- Mkdocs wiki.
+- Github CI/CD
+- Fastapi server.
+- Telegram bot server.
+- Pypi publish.
+- IA conversation support.
+- Testing.
 
 ## Usage
 
@@ -61,7 +72,10 @@ Then, you can run `make help`.
 Learn more about the different tasks
 you can perform on this project using [make](https://www.gnu.org/software/make/).
 
-### Utils
+### Extra Utils
+
+These files are not included in the distributable.
+You can use to do additional development tasks:
 
 - card-term-viewer: It is a helper to render in terminal images.
   That could help in development.

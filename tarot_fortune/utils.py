@@ -31,12 +31,21 @@ def timeit(f):
 
 
 def get_default_resources_path():
-    return os.path.join('tarot_fortune', 'data')
+    path = os.path.join(os.path.dirname(__file__), 'resources')
+    if not os.path.exists(path):
+        raise ValueError(f"El path '{path}' no existe.")
+    return path
 
 
 def get_cards_json(language: str = 'es'):
-    return os.path.join(get_default_resources_path(), f'text/{language}/cards.json')
+    path = os.path.join(get_default_resources_path(), f'text/{language}/cards.json')
+    if not os.path.exists(path):
+        raise ValueError(f"El archivo '{path}' no existe.")
+    return path
 
 
 def get_card_path(id: str, deck: str = "rider-taite-tarot"):
-    return os.path.join(get_default_resources_path(), "cards", f"{deck}", f"{id}.jpg")
+    path = os.path.join(get_default_resources_path(), "cards", f"{deck}", f"{id}.jpg")
+    if not os.path.exists(path):
+        raise ValueError(f"El archivo '{path}' no existe.")
+    return path
