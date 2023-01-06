@@ -50,7 +50,27 @@ but by terminal.
 
 ## Usage
 
-TBD
+```bash
+python tarot_fortune/bin/fortune.py --help
+```
+
+This command will choose a random card
+and it will print the meaning and the card in the terminal.
+In example:
+
+```bash
+python tarot_fortune/bin/fortune.py single
+```
+
+### Use the latest repository version
+
+You can install the latest version in this way:
+
+```bash
+pip install git+https://github.com/vgonisanz/tarot-fortune
+```
+
+The `tarot-fortune` binary work in the same way but path is not required.
 
 ## Development
 
